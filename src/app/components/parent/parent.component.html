@@ -1,0 +1,12 @@
+<p>parent works!</p>
+
+<div *ngFor="let product of products">
+    <p>{{ product.name }}</p>
+    <p>{{ product.price }}</p>
+    <p>{{ product.description }}</p>
+</div>
+
+<br>
+<a routerLink="/sibling">Go to sibling</a>
+
+<app-children></app-children>
